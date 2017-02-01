@@ -26,6 +26,8 @@ list-style-type: none;
 #nav li {
   margin: 0;
   padding: 0;
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 1px;
 }
 
 #nav a:link, #nav a:visited {
@@ -36,5 +38,13 @@ list-style-type: none;
   display: block;
   font-family: Helvetica, Arial, sans-serif;
   text-align: center;
-  padding: 4px; 
+  padding: 4px;
+}
+
+#nav a:hover, #nav a:active {
+  background-color: #7a991a;
+}
+
+img
+{border: none; 
 }
