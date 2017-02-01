@@ -9,7 +9,6 @@ h1{
 body {
 background-color: #ebe3c3;
 }
-
 #container {
   width: 95%;
   margin-top: 0;
@@ -29,7 +28,6 @@ list-style-type: none;
   border-bottom: 1px solid #ccc;
   margin-bottom: 1px;
 }
-
 #nav a:link, #nav a:visited {
   text-decoration: none;
   color: green;
@@ -40,11 +38,18 @@ list-style-type: none;
   text-align: center;
   padding: 4px;
 }
-
 #nav a:hover, #nav a:active {
   background-color: #7a991a;
 }
-
 img
-{border: none; 
+{border: none;
+}
+.caption {
+color:black;
+font-family: Georgia, "Times New Roman", serif;
+margin-top: 0;
+font-style: italic;
+text-align: right; 
+font-size: 0.9em;
+
 }
