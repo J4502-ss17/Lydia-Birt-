@@ -1,1 +1,11 @@
 /*styles go here*/
+p {
+  color:#666666;
+  font-family:Helvetica, Arial, sans-serif;
+}
+h1{
+  font-family: Georgia, "Times New Roman", serif; 
+}
+body{
+background-color: #ebe3c3;
+}
