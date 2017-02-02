@@ -10,6 +10,7 @@ body {
 background-color: #ebe3c3;
 }
 #container {
+  text-align: center;
   width: 95%;
   margin-top: 0;
   margin-bottom: 0;
