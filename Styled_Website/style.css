@@ -30,13 +30,13 @@ list-style-type: none;
   margin-bottom: 1px;
 }
 #nav a:link, #nav a:visited {
-  text-decoration: none;
+  text-decoration: underline;
   color: green;
   font-weight: bold;
   background-color: tan;
   display: block;
   font-family: Helvetica, Arial, sans-serif;
-  text-align: center;
+  text-alig#FF1493n: center;
   padding: 4px;
 }
 #nav a:hover, #nav a:active {
@@ -45,5 +45,10 @@ list-style-type: none;
 
 img
 {border: none;
-  width: 50%;
+  width: 40%;
+}
+
+footer
+{
+background-color: #FF1493
 }
