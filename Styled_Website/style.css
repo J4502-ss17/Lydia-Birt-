@@ -17,6 +17,10 @@ background-color: #ebe3c3;
   margin-bottom: 0;
   margin-right: auto;
   margin-left: auto;
+  display: flex;
+  flex-flow: row;
+  flex-wrap: wrap;
+
 }
 
 #joke {
@@ -34,8 +38,10 @@ list-style-type: none;
   padding: 0;
   border-bottom: 1px solid #ccc;
   margin-bottom: 1px;
+    display: block;
+      color: green;
 }
-#nav a:link, #nav a:visited {
+#nav a:link #nav a:visited {
   text-decoration: underline;
   font-family: 'Noticia Text', serif;
   color: green;
@@ -46,14 +52,22 @@ list-style-type: none;
   text-align: center;
   padding: 4px;
 }
-#nav a:hover, #nav a:active {
+#nav a:active {
   background-color: #7a991a;
+  display: block;
+    color: green;
 }
 
-img
+
+
+#img
 {border: none;
   width: 40%;
-}
+  margin-right: 10px;
+  float:right;
+  object-fit: contain;
+  }
+
 
 #footer
 {
