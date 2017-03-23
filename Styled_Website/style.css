@@ -88,3 +88,8 @@ background-color: #006200;
     #nav a:hover {
     	background: black;
     }
+
+    #img {
+        width: 45%;
+        margin-right: 10px;
+    }
