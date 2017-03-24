@@ -23,6 +23,8 @@ background-color: #ebe3c3;
 
 }
 
+
+
 #joke {
 font-family: 'Noticia Text', serif;
 font-size: 150%;
@@ -51,6 +53,10 @@ list-style-type: none;
         font-family: Helvetica, Arial, sans-serif;
 }
 
+#nav a:hover {
+  background: black;
+}
+
 #nav li:last-of-type a{
   border-bottom: none;
 }
@@ -65,13 +71,15 @@ list-style-type: none;
   }
 
 
-#footer
+footer
 {
   text-align: center;
 text-decoration-color: black;
 font-family: 'Sanchez', serif;
   font-weight: bold;
 background-color: #006200;
+flex: 1 100%;
+padding: 10px;
 }
 
 @media (min-width:800px) {
@@ -80,6 +88,11 @@ background-color: #006200;
         flex-flow: row wrap;
         justify-content: flex-end;
     }
+    #container
+
+  { flex-wrap: wrap;
+    justify-content: space-between;
+  }
 
     #nav a {
         border: none;
@@ -93,3 +106,6 @@ background-color: #006200;
         width: 45%;
         margin-right: 10px;
     }
+footer { flex: 0 0 12em;
+    order: 4;
+}
