@@ -4,7 +4,7 @@ body{
 }
 
 #header, #nav, #footer, h1, h2, h3{
-  font-family: Tahoma, Geneva, sans-serif;
+  font-family: 'Raleway', sans-serif;
 }
 
 #container {
@@ -22,6 +22,28 @@ body{
 font-family: 'Noticia Text', serif;
 font-size: 150%;
 }
+#img
+{border: none;
+  width: 40%;
+  margin-right: 10px;
+  float:right;
+  object-fit: contain;
+  }
+
+
+footer
+{
+  text-align: center;
+text-decoration-color: black;
+font-family: 'Sanchez', serif;
+  font-weight: bold;
+background-color: #006200;
+flex: 1 100%;
+padding: 10px;
+}
+ #email {
+float: left;
+ }
 
 #header .inner{
   background: #F38630;
@@ -54,8 +76,8 @@ font-size: 150%;
 
 #nav a {
   display: block;
-  color: green;
   text-decoration: none;
+  font-family: 'Noticia Text', serif;
   padding: 10px 10px 10px 10px;
   font-weight: bold;
   list-style-type: none;
