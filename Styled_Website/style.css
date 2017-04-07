@@ -181,3 +181,7 @@ img, .caption {
         display: block;
     }
 }
+#joke {
+    max-width: 40em;
+    margin-left: 5em;
+}
