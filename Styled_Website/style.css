@@ -2,6 +2,17 @@ body{
   font-family: "Georgia", serif;
   background-color: #ebe3c3;
 }
+nav ul li {
+    display: block;
+    border-top: 1px #79896d solid;
+}
+
+nav a {
+    color: #f8ecc2;
+    display: block;
+    text-decoration: none;
+    padding: 20px 30px;
+}
 
 #header, #nav, #footer, h1, h2, h3{
   font-family: 'Raleway', sans-serif;
@@ -18,7 +29,8 @@ body{
   flex-flow: row;
   flex-wrap: wrap;
 }
-#menu-trigger {
+
+.menu-trigger {
     order: 1;
     font-size: 1.75em;
     width: 2em;
@@ -114,7 +126,7 @@ float: left;
     display:flex;
     flex-flow:row;
   }
-  #menu-trigger {
+  .menu-trigger {
       display: none;
   }
 
@@ -192,4 +204,13 @@ img, .caption {
 #joke {
     max-width: 40em;
     margin-left: 5em;
+}
+
+header h1 {
+    order: 1;
+}
+
+nav {
+    order: 2;
+}
 }
